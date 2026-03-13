@@ -1,7 +1,7 @@
 {
   "name": "pi-autoresearch",
   "version": "1.0.0",
-  "description": "Autonomous experiment loop for pi — run, measure, keep or discard. Inspired by karpathy/autoresearch.",
+  "description": "Autonomous experiment loop for pi \u2014 run, measure, keep or discard. Inspired by karpathy/autoresearch.",
   "keywords": [
     "pi-package"
   ],
@@ -19,5 +19,9 @@
     "@mariozechner/pi-coding-agent": "*",
     "@mariozechner/pi-tui": "*",
     "@sinclair/typebox": "*"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2"
   }
 }
